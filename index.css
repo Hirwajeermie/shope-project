@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins, sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Oxanium', sans-serif;
+}
+
+@media (min-width: 768px){
+    .news-input-1{
+        width: 50%;
+    }
+}
+
+.navigation-row{
+    height: 100%;
+    width: 100%;
+    background-image: url(img/Untitled-2.jpg);
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing:border-box;
+    position: relative;
+    
+}
+
+.navbar-logo{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar-list{
+    text-decoration: none;
+}
+
+.navbar-half-log{
+    text-decoration: underline ;
+    text-decoration-color: blue;
+}
+
+.woman-dress-meaning{
+    line-height: 2;
+}
+
+.summer-collection{
+    margin: 4rem auto;
+}
+
+.man-img{
+    text-align: center;
+    display: flex;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    
+}
+
+.icons{
+    padding: 40px;
+    margin-left: 15rem;
+    display:flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+  
+.support-list{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.baby-dress{
+    height: 13rem;
+}
+
+.Customer-img{
+    text-align: center;
+}
+
+.product-img span{
+    top: 20px;
+    width: 50px;
+    height: 50px ;
+    border-radius: 60px;
+}
+
+.container-footer{
+    background-color: LightGray;
+}
+
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
